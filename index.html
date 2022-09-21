@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="input.css" />
+    <title>Clipboard</title>
+  </head>
+  <body>
+    <!-- ========== Header ========== -->
+    <header>
+      <div>
+        <img src="#" alt="Logo" />
+        <p>Clipboard</p>
+      </div>
+      <div>
+        <div type="button">Télécharger</div>
+      </div>
+    </header>
+
+    <!-- ========== Main ========== -->
+    <main>
+      <h1><span>Clipboard - </span>Le gestionnaire des copier-coller</h1>
+
+      <!-- ========== Section principale ========== -->
+      <section>
+        <div>
+          <img
+            src="#"
+            alt="Ordinateur qui affiche une fenêtre. Le copier-coller a fonctionné"
+          />
+        </div>
+        <div>
+          <div>
+            <p>Je facilite :</p>
+            <ul>
+              <li>La mémorisation des copier-coller</li>
+              <li>L'organisation de ces derniers</li>
+              <li>La récupération de l'historique</li>
+              <li>La copie des images</li>
+              <li>Voir les autres possibilités...</li>
+            </ul>
+          </div>
+          <div id="util-version-mobile">
+            <div>
+              <div type="button">Télécharger</div>
+            </div>
+            <p>Comment l'utiliser ?</p>
+            <ul>
+              <li>
+                Copier : Double touch sur un mot puis glisser jusqu’a la fin de
+                la phrase
+              </li>
+              <li>
+                Copier avec tag : Triple touch sur un mot, glisser et enfin
+                nommé le tag
+              </li>
+              <li>
+                Coller dans un dossier précis: Double touch, glisser puis
+                laisser le doigt appuyé longtemp en fin de phrase
+              </li>
+              <li>Voir les autres commandes...</li>
+            </ul>
+          </div>
+          <div id="util-version-desktop">
+            <p>Comment l'utiliser ?</p>
+            <ul>
+              <li>Copier : Cmd + c ou Ctrl c</li>
+              <li>
+                Copier avec tag : Cmd + t ou Ctrl + t puis nommé le tag dans
+                l'espace réservé
+              </li>
+              <li>
+                Coller dans un dossier précis : Cmd + d ou Ctrl d puis cibler le
+                dossier dans la fenêtre qui s'affiche
+              </li>
+              <li>Voir les autres commandes...</li>
+            </ul>
+          </div>
+          <div>
+            <div type="button">Télécharger</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== Section condiance ========== -->
+      <section>
+        <h2>Ils nous font confiance</h2>
+        <img src="#" alt="Logo Google" />
+        <img src="#" alt="Logo HP" />
+        <img src="#" alt="Logo IBM" />
+        <img src="#" alt="Logo Microsoft" />
+        <img src="#" alt="Logo VectorGraphique" />
+      </section>
+
+      <!-- ========== Section commandes ========== -->
+      <section>
+        <div id="cmd-version-mobile">
+          <h2>Toutes les commandes <span>(Android et IOS)</span></h2>
+          <ul>
+            <li>
+              Double touch sur un mot puis glisser jusqu’a la fin de la phrase :
+              la sélection est automatiquement coller dans le presse papier
+            </li>
+            <li>
+              Copier avec tag: Triple touch sur un mot puis glisser jusqu’a la
+              fin de la sélection. Une petite fenêtre s’ouvre pour nommé le tag
+            </li>
+            <li>
+              Coller dans un dossier précis: Double touch sur le premier mot
+              puis glisser jusqu’à la fin de la sélection et laisser le doigt
+              appuyé longtemp. Le dossier du presse papier s’ouvre pour que vous
+              puissiez choisir le dossier souhaité.
+            </li>
+            <li>Vous pouvez également copier-coler des images</li>
+          </ul>
+        </div>
+        <div id="cmd-version-desktop">
+          <h2>Toutes les commandes et raccourcis clavier</h2>
+          <div id="windows">
+            <p>Ensembles des raccourcis sous Windows :</p>
+            <p>Ctrl + C pour copier des données dans le presse-papier</p>
+            <p>Ctrl + X pour couper des données vers le presse-papier</p>
+            <p>Ctrl + V pour coller des données depuis le presse-papier</p>
+            <p>
+              Ctrl + t pour copier avec un Tag (c’est-a-dire une balise poue le
+              retrouver facilement)
+            </p>
+            <p>
+              Ctrl + d pour copier dans un dossier souhaité (Une fenêtre
+              s’affiche avec les différents dossiers du presse papier)
+            </p>
+            <p>
+              Raccourcis alternatifs (disponibles dans de nombreux programmes
+              sous Windows) :
+            </p>
+            <p>Ctrl + Inser pour copier</p>
+            <p>Shift + Suppr pour couper</p>
+            <p>Shift + Inser pour coller</p>
+          </div>
+        </div>
+        <div id="macOs">
+          <p>Les raccourcis standards de MacOS sont :</p>
+          <p>Command + C pour copier des données dans le presse-papier</p>
+          <p>Command + X pour couper des données vers le presse-papier</p>
+          <p>Command + V pour coller des données depuis le presse-papier</p>
+          <p>
+            Command + t pour copier avec un Tag (c’est-a-dire une balise poue le
+            retrouver facilement)
+          </p>
+          <p>
+            Command + d pour copier dans un dossier souhaité (Une fenêtre
+            s’affiche avec les différents dossiers du presse papier)
+          </p>
+          <p>Ctrl-k pour copier à partir du curseur jusqu'à la fin de ligne.</p>
+          <p>Ctrl-y pour couper du "kill-ring" au curseur.</p>
+        </div>
+      </section>
+      <div>
+        <div type="button">Télécharger</div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <p>Copiright - Clipboard 2022</p>
+      </div>
+      <div>
+        <p>Politique de condidentialité</p>
+        <p>Contact</p>
+      </div>
+      <div>
+        <img src="#" alt="Icone Twitter" />
+        <img src="#" alt="Icone Facebook" />
+        <img src="#" alt="Icone Insta" />
+      </div>
+    </footer>
+  </body>
+</html>

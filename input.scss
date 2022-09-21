@@ -1,0 +1,31 @@
+// ============= Variables générales ============= //
+
+// Colors:
+$strongCyan: hsl(171, 66%, 44%);
+$lightBlue: hsl(233, 100%, 69%);
+$darkGrayishBlue: hsl(210, 11%, 66%);
+$grayishBlue: hsl(201, 11%, 66%);
+
+// Fonts:
+$baiJamjuree: 'Bai Jamjuree', sans-serif;
+%principalFont {
+  font-family: $baiJamjuree;
+  font-size: 18px;
+}
+
+%highlightFont {
+  @extend %principalFont;
+  font-weight: 600;
+}
+
+
+// Breackpoint
+$mobile-device: "screen and (max-width: 576px)";
+$tablet-device: "screen and (min-width: 577px) and (max-width: 767px)";
+$desktop-device: "screen and (min-width: 768px)";
+
+
+// =================== Style ==================== //
+body {
+  @extend %principalFont
+}

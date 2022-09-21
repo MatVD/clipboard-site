@@ -18,14 +18,33 @@ $baiJamjuree: 'Bai Jamjuree', sans-serif;
   font-weight: 600;
 }
 
+// Flex
+@mixin flex($direction, $position) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $position;
+}
 
-// Breackpoint
-$mobile-device: "screen and (max-width: 576px)";
-$tablet-device: "screen and (min-width: 577px) and (max-width: 767px)";
-$desktop-device: "screen and (min-width: 768px)";
+// =================== reset ==================== //
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
 // =================== Style ==================== //
 body {
-  @extend %principalFont
+  @extend %principalFont;
+}
+
+header {
+  background: url(./statics/images/bg-header-desktop.png);
+  @include flex(row, space-between)
+   
+}
+
+footer {
+  background: url(./statics/images/bg-header-desktop.png);
+  @include flex(row, space-between)
 }
